@@ -15,6 +15,8 @@
 		42FB5BEC213D312D005FA8F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BEB213D312D005FA8F2 /* main.m */; };
 		42FB5BF6213D312D005FA8F2 /* ViperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BF5213D312D005FA8F2 /* ViperTests.m */; };
 		42FB5C01213D312D005FA8F2 /* ViperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C00213D312D005FA8F2 /* ViperUITests.m */; };
+		42FB5C0F213D3DF2005FA8F2 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB5C0E213D3DF2005FA8F2 /* libAFNetworking.a */; };
+		D5220E26545AD0F1F8D3EFA9 /* libPods-Viper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1F1656E10644A27B09A191 /* libPods-Viper.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08693508FE668EA43B5BA9DA /* Pods-Viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viper/Pods-Viper.release.xcconfig"; sourceTree = "<group>"; };
 		42FB5BD9213D312B005FA8F2 /* Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FB5BDC213D312C005FA8F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42FB5BDD213D312C005FA8F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		42FB5BFC213D312D005FA8F2 /* ViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FB5C00213D312D005FA8F2 /* ViperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViperUITests.m; sourceTree = "<group>"; };
 		42FB5C02213D312D005FA8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FB5C0E213D3DF2005FA8F2 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F13039E0018B2507973F6A /* libPods-ViperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75276E1BA644C275C60A1FEA /* libPods-ViperUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViperUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1F1656E10644A27B09A191 /* libPods-Viper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Viper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5CCF99AE023F2E7FF16F25 /* Pods-Viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viper/Pods-Viper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FB5C0F213D3DF2005FA8F2 /* libAFNetworking.a in Frameworks */,
+				D5220E26545AD0F1F8D3EFA9 /* libPods-Viper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B3D1497C0DF538F6B591BD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42FB5C0E213D3DF2005FA8F2 /* libAFNetworking.a */,
+				DB1F1656E10644A27B09A191 /* libPods-Viper.a */,
+				69F13039E0018B2507973F6A /* libPods-ViperTests.a */,
+				75276E1BA644C275C60A1FEA /* libPods-ViperUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		42FB5BD0213D312B005FA8F2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +106,8 @@
 				42FB5BF4213D312D005FA8F2 /* ViperTests */,
 				42FB5BFF213D312D005FA8F2 /* ViperUITests */,
 				42FB5BDA213D312B005FA8F2 /* Products */,
+				AAF120196245FE8CC043A488 /* Pods */,
+				3B3D1497C0DF538F6B591BD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +155,15 @@
 			path = ViperUITests;
 			sourceTree = "<group>";
 		};
+		AAF120196245FE8CC043A488 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CCF99AE023F2E7FF16F25 /* Pods-Viper.debug.xcconfig */,
+				08693508FE668EA43B5BA9DA /* Pods-Viper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42FB5C05213D312D005FA8F2 /* Build configuration list for PBXNativeTarget "Viper" */;
 			buildPhases = (
+				69941C4814038D50A1C5623E /* [CP] Check Pods Manifest.lock */,
 				42FB5BD5213D312B005FA8F2 /* Sources */,
 				42FB5BD6213D312B005FA8F2 /* Frameworks */,
 				42FB5BD7213D312B005FA8F2 /* Resources */,
@@ -257,6 +290,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69941C4814038D50A1C5623E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42FB5BD5213D312B005FA8F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -370,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -431,11 +485,13 @@
 		};
 		42FB5C06213D312D005FA8F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5CCF99AE023F2E7FF16F25 /* Pods-Viper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 657HH87BMM;
 				INFOPLIST_FILE = Viper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +504,13 @@
 		};
 		42FB5C07213D312D005FA8F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08693508FE668EA43B5BA9DA /* Pods-Viper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 657HH87BMM;
 				INFOPLIST_FILE = Viper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
