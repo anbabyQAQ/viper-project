@@ -9,5 +9,7 @@
 #ifndef TYLCategory_h
 #define TYLCategory_h
 
+#import "NSNotificationCenter+TYLCommon.h"
+
 
 #endif /* TYLCategory_h */

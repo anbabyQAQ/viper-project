@@ -10,5 +10,6 @@
 #define TYLRouter_h
 
 #import "TYLURLHandler.h"
+#import "UIViewController+TYLURL.h"
 
 #endif /* TYLRouter_h */
