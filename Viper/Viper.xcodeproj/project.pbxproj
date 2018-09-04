@@ -11,6 +11,8 @@
 		42BCCC33213E5F56008C9AE3 /* NSString+TYLURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC32213E5F56008C9AE3 /* NSString+TYLURL.m */; };
 		42BCCC37213E60AB008C9AE3 /* TYLURLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC36213E60AB008C9AE3 /* TYLURLHandler.m */; };
 		42BCCC3A213E641E008C9AE3 /* TYLClassUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC39213E641E008C9AE3 /* TYLClassUtil.m */; };
+		42BCCC3E213E7210008C9AE3 /* TYLViewControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC3D213E7210008C9AE3 /* TYLViewControllerFactory.m */; };
+		42BCCC4A213E7EC5008C9AE3 /* TYLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC49213E7EC5008C9AE3 /* TYLBaseViewController.m */; };
 		42FB5BE1213D312C005FA8F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BE0213D312C005FA8F2 /* ViewController.m */; };
 		42FB5BE6213D312D005FA8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FB5BE5213D312D005FA8F2 /* Assets.xcassets */; };
 		42FB5BEC213D312D005FA8F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BEB213D312D005FA8F2 /* main.m */; };
@@ -37,6 +39,23 @@
 		42BCCC38213E641E008C9AE3 /* TYLClassUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLClassUtil.h; sourceTree = "<group>"; };
 		42BCCC39213E641E008C9AE3 /* TYLClassUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLClassUtil.m; sourceTree = "<group>"; };
 		42BCCC3B213E6437008C9AE3 /* TYLUtilHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLUtilHeader.h; sourceTree = "<group>"; };
+		42BCCC3C213E7210008C9AE3 /* TYLViewControllerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViewControllerFactory.h; sourceTree = "<group>"; };
+		42BCCC3D213E7210008C9AE3 /* TYLViewControllerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLViewControllerFactory.m; sourceTree = "<group>"; };
+		42BCCC40213E7A3F008C9AE3 /* TYLInteractor_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLInteractor_Private.h; sourceTree = "<group>"; };
+		42BCCC44213E7D8A008C9AE3 /* TYLManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLManager.h; sourceTree = "<group>"; };
+		42BCCC45213E7DA5008C9AE3 /* TYLCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLCategory.h; sourceTree = "<group>"; };
+		42BCCC47213E7E67008C9AE3 /* TYLBaseViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseViewProtocol.h; sourceTree = "<group>"; };
+		42BCCC48213E7EC5008C9AE3 /* TYLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseViewController.h; sourceTree = "<group>"; };
+		42BCCC49213E7EC5008C9AE3 /* TYLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLBaseViewController.m; sourceTree = "<group>"; };
+		42BCCC4B213E8197008C9AE3 /* TYLViewControllerStyleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViewControllerStyleProtocol.h; sourceTree = "<group>"; };
+		42BCCC4C213E820B008C9AE3 /* TYLBaseViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseViewDataSource.h; sourceTree = "<group>"; };
+		42BCCC4D213E820B008C9AE3 /* TYLViewControllerBusinessProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViewControllerBusinessProtocol.h; sourceTree = "<group>"; };
+		42BCCC4E213E820B008C9AE3 /* TYLBaseEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseEventHandler.h; sourceTree = "<group>"; };
+		42BCCC4F213E820B008C9AE3 /* TYLBaseInteractorInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseInteractorInput.h; sourceTree = "<group>"; };
+		42BCCC51213E856B008C9AE3 /* TYLEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLEnum.h; sourceTree = "<group>"; };
+		42BCCC53213E85FA008C9AE3 /* TYLBaseURLMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseURLMacro.h; sourceTree = "<group>"; };
+		42BCCC54213E862C008C9AE3 /* TYLWeakStrongMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLWeakStrongMacro.h; sourceTree = "<group>"; };
+		42BCCC55213E86A1008C9AE3 /* TYLSingletonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLSingletonMacro.h; sourceTree = "<group>"; };
 		42FB5BD9213D312B005FA8F2 /* Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FB5BDF213D312C005FA8F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		42FB5BE0213D312C005FA8F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -60,7 +79,6 @@
 		42FB5C34213E3489005FA8F2 /* TYLEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLEventHandler.h; sourceTree = "<group>"; };
 		42FB5C35213E3498005FA8F2 /* TYLDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLDataSource.h; sourceTree = "<group>"; };
 		42FB5C3A213E3556005FA8F2 /* TYLEventHandler_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLEventHandler_Private.h; sourceTree = "<group>"; };
-		42FB5C3B213E356E005FA8F2 /* TYLInteractor_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLInteractor_Private.h; sourceTree = "<group>"; };
 		42FB5C3C213E357C005FA8F2 /* TYLViper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViper.h; sourceTree = "<group>"; };
 		42FB5C3D213E3931005FA8F2 /* TYLcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLcore.h; sourceTree = "<group>"; };
 		DB1F1656E10644A27B09A191 /* libPods-Viper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Viper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,8 +117,59 @@
 				42BCCC2F213E5DCC008C9AE3 /* TYLURL.m */,
 				42BCCC31213E5F56008C9AE3 /* NSString+TYLURL.h */,
 				42BCCC32213E5F56008C9AE3 /* NSString+TYLURL.m */,
+				42BCCC3C213E7210008C9AE3 /* TYLViewControllerFactory.h */,
+				42BCCC3D213E7210008C9AE3 /* TYLViewControllerFactory.m */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		42BCCC42213E7D04008C9AE3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC44213E7D8A008C9AE3 /* TYLManager.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		42BCCC43213E7D5E008C9AE3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC45213E7DA5008C9AE3 /* TYLCategory.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		42BCCC46213E7E33008C9AE3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC47213E7E67008C9AE3 /* TYLBaseViewProtocol.h */,
+				42BCCC48213E7EC5008C9AE3 /* TYLBaseViewController.h */,
+				42BCCC49213E7EC5008C9AE3 /* TYLBaseViewController.m */,
+				42BCCC4B213E8197008C9AE3 /* TYLViewControllerStyleProtocol.h */,
+				42BCCC4E213E820B008C9AE3 /* TYLBaseEventHandler.h */,
+				42BCCC4F213E820B008C9AE3 /* TYLBaseInteractorInput.h */,
+				42BCCC4C213E820B008C9AE3 /* TYLBaseViewDataSource.h */,
+				42BCCC4D213E820B008C9AE3 /* TYLViewControllerBusinessProtocol.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		42BCCC50213E8549008C9AE3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC51213E856B008C9AE3 /* TYLEnum.h */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		42BCCC52213E85DA008C9AE3 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC53213E85FA008C9AE3 /* TYLBaseURLMacro.h */,
+				42BCCC54213E862C008C9AE3 /* TYLWeakStrongMacro.h */,
+				42BCCC55213E86A1008C9AE3 /* TYLSingletonMacro.h */,
+			);
+			path = Macros;
 			sourceTree = "<group>";
 		};
 		42FB5BD0213D312B005FA8F2 = {
@@ -184,6 +253,8 @@
 		42FB5C18213D4788005FA8F2 /* Assistants */ = {
 			isa = PBXGroup;
 			children = (
+				42BCCC52213E85DA008C9AE3 /* Macros */,
+				42BCCC50213E8549008C9AE3 /* Enums */,
 				42FB5C3D213E3931005FA8F2 /* TYLcore.h */,
 			);
 			path = Assistants;
@@ -209,8 +280,11 @@
 		42FB5C1B213D47B1005FA8F2 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				42BCCC46213E7E33008C9AE3 /* Base */,
 				42BCCC2D213E5DAF008C9AE3 /* Router */,
 				42FB5C20213E3180005FA8F2 /* Viper */,
+				42BCCC42213E7D04008C9AE3 /* Manager */,
+				42BCCC43213E7D5E008C9AE3 /* Category */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -230,7 +304,7 @@
 				42BCCC2B213E3C3A008C9AE3 /* TYLPresenter_Private.h */,
 				42FB5C22213E31E2005FA8F2 /* TYLPresenter.m */,
 				42FB5C24213E3203005FA8F2 /* TYLInteractor.h */,
-				42FB5C3B213E356E005FA8F2 /* TYLInteractor_Private.h */,
+				42BCCC40213E7A3F008C9AE3 /* TYLInteractor_Private.h */,
 				42FB5C25213E3203005FA8F2 /* TYLInteractor.m */,
 				42FB5C27213E322E005FA8F2 /* TYLWireframe.h */,
 				42FB5C28213E322E005FA8F2 /* TYLWireframe.m */,
@@ -346,7 +420,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BCCC4A213E7EC5008C9AE3 /* TYLBaseViewController.m in Sources */,
 				42FB5C2C213E326E005FA8F2 /* TYLViperViewController.m in Sources */,
+				42BCCC3E213E7210008C9AE3 /* TYLViewControllerFactory.m in Sources */,
 				42BCCC33213E5F56008C9AE3 /* NSString+TYLURL.m in Sources */,
 				42FB5C29213E322E005FA8F2 /* TYLWireframe.m in Sources */,
 				42FB5C1F213E2DE8005FA8F2 /* TYLAppDelegate.m in Sources */,

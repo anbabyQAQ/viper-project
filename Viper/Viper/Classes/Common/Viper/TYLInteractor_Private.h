@@ -6,11 +6,11 @@
 //  Copyright © 2018年 tianyulong. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "TYLInteractor.h"
 
-@protocol TYLEventHandler, TYLDataSource;
+@protocol TYLDataSource, TYLEventHandler;
 
-@interface TYLInteractor_Private ()
+@interface TYLInteractor ()
 
 - (void)configPrefixInfo:(NSDictionary *)info;
 - (void)configEventHandler:(id<TYLEventHandler>)eventHandler;
