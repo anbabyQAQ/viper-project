@@ -1,18 +1,19 @@
 //
-//  AppDelegate.m
+//  TYLAppDelegate.m
 //  Viper
 //
-//  Created by tianyulong on 2018/9/3.
+//  Created by tianyulong on 2018/9/4.
 //  Copyright © 2018年 tianyulong. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "TYLAppDelegate.h"
 
-@interface AppDelegate ()
+
+@interface TYLAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation TYLAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

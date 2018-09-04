@@ -7,56 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42FB5BDE213D312C005FA8F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BDD213D312C005FA8F2 /* AppDelegate.m */; };
+		42BCCC30213E5DCC008C9AE3 /* TYLURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC2F213E5DCC008C9AE3 /* TYLURL.m */; };
+		42BCCC33213E5F56008C9AE3 /* NSString+TYLURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC32213E5F56008C9AE3 /* NSString+TYLURL.m */; };
+		42BCCC37213E60AB008C9AE3 /* TYLURLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC36213E60AB008C9AE3 /* TYLURLHandler.m */; };
+		42BCCC3A213E641E008C9AE3 /* TYLClassUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC39213E641E008C9AE3 /* TYLClassUtil.m */; };
 		42FB5BE1213D312C005FA8F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BE0213D312C005FA8F2 /* ViewController.m */; };
-		42FB5BE4213D312C005FA8F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FB5BE2213D312C005FA8F2 /* Main.storyboard */; };
 		42FB5BE6213D312D005FA8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FB5BE5213D312D005FA8F2 /* Assets.xcassets */; };
-		42FB5BE9213D312D005FA8F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FB5BE7213D312D005FA8F2 /* LaunchScreen.storyboard */; };
 		42FB5BEC213D312D005FA8F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BEB213D312D005FA8F2 /* main.m */; };
-		42FB5BF6213D312D005FA8F2 /* ViperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BF5213D312D005FA8F2 /* ViperTests.m */; };
-		42FB5C01213D312D005FA8F2 /* ViperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C00213D312D005FA8F2 /* ViperUITests.m */; };
 		42FB5C0F213D3DF2005FA8F2 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB5C0E213D3DF2005FA8F2 /* libAFNetworking.a */; };
+		42FB5C1F213E2DE8005FA8F2 /* TYLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C1E213E2DE8005FA8F2 /* TYLAppDelegate.m */; };
+		42FB5C23213E31E2005FA8F2 /* TYLPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C22213E31E2005FA8F2 /* TYLPresenter.m */; };
+		42FB5C26213E3203005FA8F2 /* TYLInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C25213E3203005FA8F2 /* TYLInteractor.m */; };
+		42FB5C29213E322E005FA8F2 /* TYLWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C28213E322E005FA8F2 /* TYLWireframe.m */; };
+		42FB5C2C213E326E005FA8F2 /* TYLViperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C2B213E326E005FA8F2 /* TYLViperViewController.m */; };
 		D5220E26545AD0F1F8D3EFA9 /* libPods-Viper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1F1656E10644A27B09A191 /* libPods-Viper.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		42FB5BF2213D312D005FA8F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42FB5BD1213D312B005FA8F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42FB5BD8213D312B005FA8F2;
-			remoteInfo = Viper;
-		};
-		42FB5BFD213D312D005FA8F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42FB5BD1213D312B005FA8F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42FB5BD8213D312B005FA8F2;
-			remoteInfo = Viper;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		08693508FE668EA43B5BA9DA /* Pods-Viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viper/Pods-Viper.release.xcconfig"; sourceTree = "<group>"; };
+		42BCCC2B213E3C3A008C9AE3 /* TYLPresenter_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLPresenter_Private.h; sourceTree = "<group>"; };
+		42BCCC2C213E585B008C9AE3 /* TYLViperViewController_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViperViewController_Private.h; sourceTree = "<group>"; };
+		42BCCC2E213E5DCC008C9AE3 /* TYLURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLURL.h; sourceTree = "<group>"; };
+		42BCCC2F213E5DCC008C9AE3 /* TYLURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLURL.m; sourceTree = "<group>"; };
+		42BCCC31213E5F56008C9AE3 /* NSString+TYLURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TYLURL.h"; sourceTree = "<group>"; };
+		42BCCC32213E5F56008C9AE3 /* NSString+TYLURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TYLURL.m"; sourceTree = "<group>"; };
+		42BCCC34213E6082008C9AE3 /* TYLRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLRouter.h; sourceTree = "<group>"; };
+		42BCCC35213E60AB008C9AE3 /* TYLURLHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLURLHandler.h; sourceTree = "<group>"; };
+		42BCCC36213E60AB008C9AE3 /* TYLURLHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLURLHandler.m; sourceTree = "<group>"; };
+		42BCCC38213E641E008C9AE3 /* TYLClassUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLClassUtil.h; sourceTree = "<group>"; };
+		42BCCC39213E641E008C9AE3 /* TYLClassUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLClassUtil.m; sourceTree = "<group>"; };
+		42BCCC3B213E6437008C9AE3 /* TYLUtilHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLUtilHeader.h; sourceTree = "<group>"; };
 		42FB5BD9213D312B005FA8F2 /* Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		42FB5BDC213D312C005FA8F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		42FB5BDD213D312C005FA8F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		42FB5BDF213D312C005FA8F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		42FB5BE0213D312C005FA8F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		42FB5BE3213D312C005FA8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42FB5BE5213D312D005FA8F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		42FB5BE8213D312D005FA8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42FB5BEA213D312D005FA8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42FB5BEB213D312D005FA8F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42FB5BF1213D312D005FA8F2 /* ViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42FB5BF5213D312D005FA8F2 /* ViperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViperTests.m; sourceTree = "<group>"; };
-		42FB5BF7213D312D005FA8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42FB5BFC213D312D005FA8F2 /* ViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42FB5C00213D312D005FA8F2 /* ViperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViperUITests.m; sourceTree = "<group>"; };
-		42FB5C02213D312D005FA8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42FB5C0E213D3DF2005FA8F2 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		69F13039E0018B2507973F6A /* libPods-ViperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75276E1BA644C275C60A1FEA /* libPods-ViperUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViperUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FB5C15213D43FC005FA8F2 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		42FB5C1D213E2DE8005FA8F2 /* TYLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLAppDelegate.h; sourceTree = "<group>"; };
+		42FB5C1E213E2DE8005FA8F2 /* TYLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLAppDelegate.m; sourceTree = "<group>"; };
+		42FB5C21213E31E2005FA8F2 /* TYLPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLPresenter.h; sourceTree = "<group>"; };
+		42FB5C22213E31E2005FA8F2 /* TYLPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLPresenter.m; sourceTree = "<group>"; };
+		42FB5C24213E3203005FA8F2 /* TYLInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLInteractor.h; sourceTree = "<group>"; };
+		42FB5C25213E3203005FA8F2 /* TYLInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLInteractor.m; sourceTree = "<group>"; };
+		42FB5C27213E322E005FA8F2 /* TYLWireframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLWireframe.h; sourceTree = "<group>"; };
+		42FB5C28213E322E005FA8F2 /* TYLWireframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLWireframe.m; sourceTree = "<group>"; };
+		42FB5C2A213E326E005FA8F2 /* TYLViperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViperViewController.h; sourceTree = "<group>"; };
+		42FB5C2B213E326E005FA8F2 /* TYLViperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLViperViewController.m; sourceTree = "<group>"; };
+		42FB5C32213E345E005FA8F2 /* TYLViperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViperProtocol.h; sourceTree = "<group>"; };
+		42FB5C33213E3472005FA8F2 /* TYLViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViewProtocol.h; sourceTree = "<group>"; };
+		42FB5C34213E3489005FA8F2 /* TYLEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLEventHandler.h; sourceTree = "<group>"; };
+		42FB5C35213E3498005FA8F2 /* TYLDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLDataSource.h; sourceTree = "<group>"; };
+		42FB5C3A213E3556005FA8F2 /* TYLEventHandler_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLEventHandler_Private.h; sourceTree = "<group>"; };
+		42FB5C3B213E356E005FA8F2 /* TYLInteractor_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLInteractor_Private.h; sourceTree = "<group>"; };
+		42FB5C3C213E357C005FA8F2 /* TYLViper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViper.h; sourceTree = "<group>"; };
+		42FB5C3D213E3931005FA8F2 /* TYLcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLcore.h; sourceTree = "<group>"; };
 		DB1F1656E10644A27B09A191 /* libPods-Viper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Viper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5CCF99AE023F2E7FF16F25 /* Pods-Viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viper/Pods-Viper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,20 +77,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42FB5BEE213D312D005FA8F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FB5BF9213D312D005FA8F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,18 +85,28 @@
 			children = (
 				42FB5C0E213D3DF2005FA8F2 /* libAFNetworking.a */,
 				DB1F1656E10644A27B09A191 /* libPods-Viper.a */,
-				69F13039E0018B2507973F6A /* libPods-ViperTests.a */,
-				75276E1BA644C275C60A1FEA /* libPods-ViperUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42BCCC2D213E5DAF008C9AE3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC34213E6082008C9AE3 /* TYLRouter.h */,
+				42BCCC35213E60AB008C9AE3 /* TYLURLHandler.h */,
+				42BCCC36213E60AB008C9AE3 /* TYLURLHandler.m */,
+				42BCCC2E213E5DCC008C9AE3 /* TYLURL.h */,
+				42BCCC2F213E5DCC008C9AE3 /* TYLURL.m */,
+				42BCCC31213E5F56008C9AE3 /* NSString+TYLURL.h */,
+				42BCCC32213E5F56008C9AE3 /* NSString+TYLURL.m */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		42FB5BD0213D312B005FA8F2 = {
 			isa = PBXGroup;
 			children = (
 				42FB5BDB213D312B005FA8F2 /* Viper */,
-				42FB5BF4213D312D005FA8F2 /* ViperTests */,
-				42FB5BFF213D312D005FA8F2 /* ViperUITests */,
 				42FB5BDA213D312B005FA8F2 /* Products */,
 				AAF120196245FE8CC043A488 /* Pods */,
 				3B3D1497C0DF538F6B591BD7 /* Frameworks */,
@@ -115,8 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				42FB5BD9213D312B005FA8F2 /* Viper.app */,
-				42FB5BF1213D312D005FA8F2 /* ViperTests.xctest */,
-				42FB5BFC213D312D005FA8F2 /* ViperUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,35 +124,126 @@
 		42FB5BDB213D312B005FA8F2 /* Viper */ = {
 			isa = PBXGroup;
 			children = (
-				42FB5BDC213D312C005FA8F2 /* AppDelegate.h */,
-				42FB5BDD213D312C005FA8F2 /* AppDelegate.m */,
+				42FB5C10213D429A005FA8F2 /* Classes */,
+				42FB5C11213D42AF005FA8F2 /* Resources */,
+				42FB5C12213D42EF005FA8F2 /* Supportings */,
 				42FB5BDF213D312C005FA8F2 /* ViewController.h */,
 				42FB5BE0213D312C005FA8F2 /* ViewController.m */,
-				42FB5BE2213D312C005FA8F2 /* Main.storyboard */,
-				42FB5BE5213D312D005FA8F2 /* Assets.xcassets */,
-				42FB5BE7213D312D005FA8F2 /* LaunchScreen.storyboard */,
-				42FB5BEA213D312D005FA8F2 /* Info.plist */,
-				42FB5BEB213D312D005FA8F2 /* main.m */,
 			);
 			path = Viper;
 			sourceTree = "<group>";
 		};
-		42FB5BF4213D312D005FA8F2 /* ViperTests */ = {
+		42FB5C10213D429A005FA8F2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				42FB5BF5213D312D005FA8F2 /* ViperTests.m */,
-				42FB5BF7213D312D005FA8F2 /* Info.plist */,
+				42FB5C16213D470E005FA8F2 /* Basics */,
+				42FB5C18213D4788005FA8F2 /* Assistants */,
+				42FB5C17213D471E005FA8F2 /* Modules */,
+				42FB5C1A213D47A7005FA8F2 /* Manager */,
+				42FB5C1B213D47B1005FA8F2 /* Common */,
+				42FB5C1C213E2D5F005FA8F2 /* ThridParties */,
+				42FB5C19213D4792005FA8F2 /* Utils */,
 			);
-			path = ViperTests;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		42FB5BFF213D312D005FA8F2 /* ViperUITests */ = {
+		42FB5C11213D42AF005FA8F2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42FB5C00213D312D005FA8F2 /* ViperUITests.m */,
-				42FB5C02213D312D005FA8F2 /* Info.plist */,
+				42FB5BE5213D312D005FA8F2 /* Assets.xcassets */,
 			);
-			path = ViperUITests;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		42FB5C12213D42EF005FA8F2 /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				42FB5BEA213D312D005FA8F2 /* Info.plist */,
+				42FB5BEB213D312D005FA8F2 /* main.m */,
+				42FB5C15213D43FC005FA8F2 /* Prefix.pch */,
+			);
+			path = Supportings;
+			sourceTree = "<group>";
+		};
+		42FB5C16213D470E005FA8F2 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				42FB5C1D213E2DE8005FA8F2 /* TYLAppDelegate.h */,
+				42FB5C1E213E2DE8005FA8F2 /* TYLAppDelegate.m */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		42FB5C17213D471E005FA8F2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		42FB5C18213D4788005FA8F2 /* Assistants */ = {
+			isa = PBXGroup;
+			children = (
+				42FB5C3D213E3931005FA8F2 /* TYLcore.h */,
+			);
+			path = Assistants;
+			sourceTree = "<group>";
+		};
+		42FB5C19213D4792005FA8F2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC3B213E6437008C9AE3 /* TYLUtilHeader.h */,
+				42BCCC38213E641E008C9AE3 /* TYLClassUtil.h */,
+				42BCCC39213E641E008C9AE3 /* TYLClassUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		42FB5C1A213D47A7005FA8F2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		42FB5C1B213D47B1005FA8F2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC2D213E5DAF008C9AE3 /* Router */,
+				42FB5C20213E3180005FA8F2 /* Viper */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		42FB5C1C213E2D5F005FA8F2 /* ThridParties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThridParties;
+			sourceTree = "<group>";
+		};
+		42FB5C20213E3180005FA8F2 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				42FB5C3C213E357C005FA8F2 /* TYLViper.h */,
+				42FB5C21213E31E2005FA8F2 /* TYLPresenter.h */,
+				42BCCC2B213E3C3A008C9AE3 /* TYLPresenter_Private.h */,
+				42FB5C22213E31E2005FA8F2 /* TYLPresenter.m */,
+				42FB5C24213E3203005FA8F2 /* TYLInteractor.h */,
+				42FB5C3B213E356E005FA8F2 /* TYLInteractor_Private.h */,
+				42FB5C25213E3203005FA8F2 /* TYLInteractor.m */,
+				42FB5C27213E322E005FA8F2 /* TYLWireframe.h */,
+				42FB5C28213E322E005FA8F2 /* TYLWireframe.m */,
+				42FB5C32213E345E005FA8F2 /* TYLViperProtocol.h */,
+				42FB5C33213E3472005FA8F2 /* TYLViewProtocol.h */,
+				42FB5C34213E3489005FA8F2 /* TYLEventHandler.h */,
+				42FB5C3A213E3556005FA8F2 /* TYLEventHandler_Private.h */,
+				42FB5C35213E3498005FA8F2 /* TYLDataSource.h */,
+				42FB5C2A213E326E005FA8F2 /* TYLViperViewController.h */,
+				42BCCC2C213E585B008C9AE3 /* TYLViperViewController_Private.h */,
+				42FB5C2B213E326E005FA8F2 /* TYLViperViewController.m */,
+			);
+			path = Viper;
 			sourceTree = "<group>";
 		};
 		AAF120196245FE8CC043A488 /* Pods */ = {
@@ -185,61 +276,18 @@
 			productReference = 42FB5BD9213D312B005FA8F2 /* Viper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42FB5BF0213D312D005FA8F2 /* ViperTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42FB5C08213D312D005FA8F2 /* Build configuration list for PBXNativeTarget "ViperTests" */;
-			buildPhases = (
-				42FB5BED213D312D005FA8F2 /* Sources */,
-				42FB5BEE213D312D005FA8F2 /* Frameworks */,
-				42FB5BEF213D312D005FA8F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42FB5BF3213D312D005FA8F2 /* PBXTargetDependency */,
-			);
-			name = ViperTests;
-			productName = ViperTests;
-			productReference = 42FB5BF1213D312D005FA8F2 /* ViperTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		42FB5BFB213D312D005FA8F2 /* ViperUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42FB5C0B213D312D005FA8F2 /* Build configuration list for PBXNativeTarget "ViperUITests" */;
-			buildPhases = (
-				42FB5BF8213D312D005FA8F2 /* Sources */,
-				42FB5BF9213D312D005FA8F2 /* Frameworks */,
-				42FB5BFA213D312D005FA8F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42FB5BFE213D312D005FA8F2 /* PBXTargetDependency */,
-			);
-			name = ViperUITests;
-			productName = ViperUITests;
-			productReference = 42FB5BFC213D312D005FA8F2 /* ViperUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		42FB5BD1213D312B005FA8F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TYL;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = tianyulong;
 				TargetAttributes = {
 					42FB5BD8213D312B005FA8F2 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					42FB5BF0213D312D005FA8F2 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 42FB5BD8213D312B005FA8F2;
-					};
-					42FB5BFB213D312D005FA8F2 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 42FB5BD8213D312B005FA8F2;
 					};
 				};
 			};
@@ -257,8 +305,6 @@
 			projectRoot = "";
 			targets = (
 				42FB5BD8213D312B005FA8F2 /* Viper */,
-				42FB5BF0213D312D005FA8F2 /* ViperTests */,
-				42FB5BFB213D312D005FA8F2 /* ViperUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,23 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FB5BE9213D312D005FA8F2 /* LaunchScreen.storyboard in Resources */,
 				42FB5BE6213D312D005FA8F2 /* Assets.xcassets in Resources */,
-				42FB5BE4213D312C005FA8F2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FB5BEF213D312D005FA8F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FB5BFA213D312D005FA8F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,61 +346,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FB5C2C213E326E005FA8F2 /* TYLViperViewController.m in Sources */,
+				42BCCC33213E5F56008C9AE3 /* NSString+TYLURL.m in Sources */,
+				42FB5C29213E322E005FA8F2 /* TYLWireframe.m in Sources */,
+				42FB5C1F213E2DE8005FA8F2 /* TYLAppDelegate.m in Sources */,
 				42FB5BE1213D312C005FA8F2 /* ViewController.m in Sources */,
+				42BCCC3A213E641E008C9AE3 /* TYLClassUtil.m in Sources */,
+				42FB5C23213E31E2005FA8F2 /* TYLPresenter.m in Sources */,
+				42FB5C26213E3203005FA8F2 /* TYLInteractor.m in Sources */,
 				42FB5BEC213D312D005FA8F2 /* main.m in Sources */,
-				42FB5BDE213D312C005FA8F2 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FB5BED213D312D005FA8F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42FB5BF6213D312D005FA8F2 /* ViperTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FB5BF8213D312D005FA8F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42FB5C01213D312D005FA8F2 /* ViperUITests.m in Sources */,
+				42BCCC37213E60AB008C9AE3 /* TYLURLHandler.m in Sources */,
+				42BCCC30213E5DCC008C9AE3 /* TYLURL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		42FB5BF3213D312D005FA8F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42FB5BD8213D312B005FA8F2 /* Viper */;
-			targetProxy = 42FB5BF2213D312D005FA8F2 /* PBXContainerItemProxy */;
-		};
-		42FB5BFE213D312D005FA8F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42FB5BD8213D312B005FA8F2 /* Viper */;
-			targetProxy = 42FB5BFD213D312D005FA8F2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		42FB5BE2213D312C005FA8F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42FB5BE3213D312C005FA8F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		42FB5BE7213D312D005FA8F2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42FB5BE8213D312D005FA8F2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		42FB5C03213D312D005FA8F2 /* Debug */ = {
@@ -490,7 +480,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = Viper/Info.plist;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Supportings/Prefix.pch";
+				INFOPLIST_FILE = Viper/Supportings/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -498,7 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.Viper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -509,7 +500,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = Viper/Info.plist;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Supportings/Prefix.pch";
+				INFOPLIST_FILE = Viper/Supportings/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -517,81 +509,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.Viper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		42FB5C09213D312D005FA8F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = ViperTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.ViperTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viper.app/Viper";
-			};
-			name = Debug;
-		};
-		42FB5C0A213D312D005FA8F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = ViperTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.ViperTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viper.app/Viper";
-			};
-			name = Release;
-		};
-		42FB5C0C213D312D005FA8F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = ViperUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.ViperUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Viper;
-			};
-			name = Debug;
-		};
-		42FB5C0D213D312D005FA8F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = ViperUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.ViperUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Viper;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -612,24 +530,6 @@
 			buildConfigurations = (
 				42FB5C06213D312D005FA8F2 /* Debug */,
 				42FB5C07213D312D005FA8F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42FB5C08213D312D005FA8F2 /* Build configuration list for PBXNativeTarget "ViperTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42FB5C09213D312D005FA8F2 /* Debug */,
-				42FB5C0A213D312D005FA8F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42FB5C0B213D312D005FA8F2 /* Build configuration list for PBXNativeTarget "ViperUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42FB5C0C213D312D005FA8F2 /* Debug */,
-				42FB5C0D213D312D005FA8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
