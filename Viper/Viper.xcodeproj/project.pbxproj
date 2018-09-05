@@ -7,50 +7,193 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42FB5BDE213D312C005FA8F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BDD213D312C005FA8F2 /* AppDelegate.m */; };
+		42BCCC30213E5DCC008C9AE3 /* TYLURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC2F213E5DCC008C9AE3 /* TYLURL.m */; };
+		42BCCC33213E5F56008C9AE3 /* NSString+TYLURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC32213E5F56008C9AE3 /* NSString+TYLURL.m */; };
+		42BCCC37213E60AB008C9AE3 /* TYLURLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC36213E60AB008C9AE3 /* TYLURLHandler.m */; };
+		42BCCC3A213E641E008C9AE3 /* TYLClassUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC39213E641E008C9AE3 /* TYLClassUtil.m */; };
+		42BCCC3E213E7210008C9AE3 /* TYLViewControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC3D213E7210008C9AE3 /* TYLViewControllerFactory.m */; };
+		42BCCC4A213E7EC5008C9AE3 /* TYLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC49213E7EC5008C9AE3 /* TYLBaseViewController.m */; };
+		42BCCC58213E89F1008C9AE3 /* NSNotificationCenter+TYLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC57213E89F1008C9AE3 /* NSNotificationCenter+TYLCommon.m */; };
+		42BCCC5B213E9007008C9AE3 /* UIViewController+TYLURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC5A213E9007008C9AE3 /* UIViewController+TYLURL.m */; };
+		42BCCC65213F7850008C9AE3 /* TYLTrackFileManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC64213F7850008C9AE3 /* TYLTrackFileManger.m */; };
+		42BCCC68213F8578008C9AE3 /* TYLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC67213F8578008C9AE3 /* TYLSwizzler.m */; };
+		42BCCC6C213F8AD7008C9AE3 /* TYLAutoTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC6A213F8AD7008C9AE3 /* TYLAutoTracking.m */; };
+		42BCCC6F213F8BCF008C9AE3 /* TYLMapTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC6D213F8BCE008C9AE3 /* TYLMapTranslator.m */; };
+		42BCCC72213F8C2D008C9AE3 /* TYLUserDefaultsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC70213F8C2D008C9AE3 /* TYLUserDefaultsUtil.m */; };
+		42BCCC77213F8E58008C9AE3 /* TYLTrackingNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC76213F8E58008C9AE3 /* TYLTrackingNetWork.m */; };
+		42BCCC7A213F8ED4008C9AE3 /* TYLAssistants.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC79213F8ED4008C9AE3 /* TYLAssistants.m */; };
+		42BCCC7D213F8FD5008C9AE3 /* TYLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC7C213F8FD5008C9AE3 /* TYLNetworkManager.m */; };
+		42BCCC80213F9033008C9AE3 /* UIDevice+TYLIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC7F213F9033008C9AE3 /* UIDevice+TYLIdentifier.m */; };
+		42BCCC83213F9100008C9AE3 /* TYLTokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC82213F9100008C9AE3 /* TYLTokenManager.m */; };
+		42BCCC86213F9263008C9AE3 /* TYLBusinessUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC84213F9262008C9AE3 /* TYLBusinessUtil.m */; };
+		42BCCC89213F9301008C9AE3 /* TYLEncryptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC88213F9301008C9AE3 /* TYLEncryptManager.m */; };
+		42BCCC8C213F93D1008C9AE3 /* NSData+NPMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC8B213F93D1008C9AE3 /* NSData+NPMD5.m */; };
+		42BCCC8F213FAB04008C9AE3 /* TYLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC8E213FAB04008C9AE3 /* TYLConstants.m */; };
+		42BCCC92213FAC47008C9AE3 /* NSObject+TYLCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC91213FAC47008C9AE3 /* NSObject+TYLCheck.m */; };
+		42BCCC95213FAC9F008C9AE3 /* TYLUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC94213FAC9F008C9AE3 /* TYLUserManager.m */; };
+		42BCCC98213FAE1B008C9AE3 /* TYLTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC97213FAE1B008C9AE3 /* TYLTracking.m */; };
+		42BCCC9B213FAF1B008C9AE3 /* TYLTrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC9A213FAF1B008C9AE3 /* TYLTrackModel.m */; };
+		42BCCC9E213FB08B008C9AE3 /* UIDevice+TYLIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCC9D213FB08B008C9AE3 /* UIDevice+TYLIPAddress.m */; };
+		42BCCCA1213FB1E8008C9AE3 /* TYLLaunchTrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCA0213FB1E8008C9AE3 /* TYLLaunchTrackModel.m */; };
+		42BCCCA4213FB20E008C9AE3 /* TYLPVTrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCA3213FB20E008C9AE3 /* TYLPVTrackModel.m */; };
+		42BCCCA7213FB24C008C9AE3 /* TYLClickTrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCA6213FB24C008C9AE3 /* TYLClickTrackModel.m */; };
+		42BCCCAA213FB2DF008C9AE3 /* TYLH5TrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCA9213FB2DF008C9AE3 /* TYLH5TrackModel.m */; };
+		42BCCCAD213FB346008C9AE3 /* NSObject+TYLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCAC213FB346008C9AE3 /* NSObject+TYLSwizzler.m */; };
+		42BCCCB0213FB35C008C9AE3 /* UIView+TYLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCAF213FB35C008C9AE3 /* UIView+TYLSwizzler.m */; };
+		42BCCCB3213FB36D008C9AE3 /* UIControl+TYLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCB2213FB36D008C9AE3 /* UIControl+TYLSwizzler.m */; };
+		42BCCCB6213FB37C008C9AE3 /* UIViewController+TYLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCB5213FB37C008C9AE3 /* UIViewController+TYLSwizzler.m */; };
+		42BCCCB9213FB38A008C9AE3 /* UIApplication+TYLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCB8213FB38A008C9AE3 /* UIApplication+TYLSwizzler.m */; };
+		42BCCCBC213FB397008C9AE3 /* NSNotificationCenter+TYLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCBB213FB397008C9AE3 /* NSNotificationCenter+TYLSwizzler.m */; };
+		42BCCCC0213FB3C4008C9AE3 /* UITableView+TYLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCBF213FB3C4008C9AE3 /* UITableView+TYLSwizzler.m */; };
+		42BCCCC3213FB3F5008C9AE3 /* TYLTableViewDelegateSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCC2213FB3F5008C9AE3 /* TYLTableViewDelegateSwizzler.m */; };
+		42BCCCC7213FBDC2008C9AE3 /* UIView+TYLTrackProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCC6213FBDC2008C9AE3 /* UIView+TYLTrackProperties.m */; };
+		42BCCCCF213FD338008C9AE3 /* UITableView+TYLTrackProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCCCCE213FD338008C9AE3 /* UITableView+TYLTrackProperties.m */; };
 		42FB5BE1213D312C005FA8F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BE0213D312C005FA8F2 /* ViewController.m */; };
-		42FB5BE4213D312C005FA8F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FB5BE2213D312C005FA8F2 /* Main.storyboard */; };
 		42FB5BE6213D312D005FA8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FB5BE5213D312D005FA8F2 /* Assets.xcassets */; };
-		42FB5BE9213D312D005FA8F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FB5BE7213D312D005FA8F2 /* LaunchScreen.storyboard */; };
 		42FB5BEC213D312D005FA8F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BEB213D312D005FA8F2 /* main.m */; };
-		42FB5BF6213D312D005FA8F2 /* ViperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5BF5213D312D005FA8F2 /* ViperTests.m */; };
-		42FB5C01213D312D005FA8F2 /* ViperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C00213D312D005FA8F2 /* ViperUITests.m */; };
+		42FB5C0F213D3DF2005FA8F2 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FB5C0E213D3DF2005FA8F2 /* libAFNetworking.a */; };
+		42FB5C1F213E2DE8005FA8F2 /* TYLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C1E213E2DE8005FA8F2 /* TYLAppDelegate.m */; };
+		42FB5C23213E31E2005FA8F2 /* TYLPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C22213E31E2005FA8F2 /* TYLPresenter.m */; };
+		42FB5C26213E3203005FA8F2 /* TYLInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C25213E3203005FA8F2 /* TYLInteractor.m */; };
+		42FB5C29213E322E005FA8F2 /* TYLWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C28213E322E005FA8F2 /* TYLWireframe.m */; };
+		42FB5C2C213E326E005FA8F2 /* TYLViperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB5C2B213E326E005FA8F2 /* TYLViperViewController.m */; };
+		D5220E26545AD0F1F8D3EFA9 /* libPods-Viper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1F1656E10644A27B09A191 /* libPods-Viper.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		42FB5BF2213D312D005FA8F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42FB5BD1213D312B005FA8F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42FB5BD8213D312B005FA8F2;
-			remoteInfo = Viper;
-		};
-		42FB5BFD213D312D005FA8F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 42FB5BD1213D312B005FA8F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42FB5BD8213D312B005FA8F2;
-			remoteInfo = Viper;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		08693508FE668EA43B5BA9DA /* Pods-Viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viper/Pods-Viper.release.xcconfig"; sourceTree = "<group>"; };
+		42BCCC2B213E3C3A008C9AE3 /* TYLPresenter_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLPresenter_Private.h; sourceTree = "<group>"; };
+		42BCCC2C213E585B008C9AE3 /* TYLViperViewController_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViperViewController_Private.h; sourceTree = "<group>"; };
+		42BCCC2E213E5DCC008C9AE3 /* TYLURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLURL.h; sourceTree = "<group>"; };
+		42BCCC2F213E5DCC008C9AE3 /* TYLURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLURL.m; sourceTree = "<group>"; };
+		42BCCC31213E5F56008C9AE3 /* NSString+TYLURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TYLURL.h"; sourceTree = "<group>"; };
+		42BCCC32213E5F56008C9AE3 /* NSString+TYLURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TYLURL.m"; sourceTree = "<group>"; };
+		42BCCC34213E6082008C9AE3 /* TYLRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLRouter.h; sourceTree = "<group>"; };
+		42BCCC35213E60AB008C9AE3 /* TYLURLHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLURLHandler.h; sourceTree = "<group>"; };
+		42BCCC36213E60AB008C9AE3 /* TYLURLHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLURLHandler.m; sourceTree = "<group>"; };
+		42BCCC38213E641E008C9AE3 /* TYLClassUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLClassUtil.h; sourceTree = "<group>"; };
+		42BCCC39213E641E008C9AE3 /* TYLClassUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLClassUtil.m; sourceTree = "<group>"; };
+		42BCCC3B213E6437008C9AE3 /* TYLUtilHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLUtilHeader.h; sourceTree = "<group>"; };
+		42BCCC3C213E7210008C9AE3 /* TYLViewControllerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViewControllerFactory.h; sourceTree = "<group>"; };
+		42BCCC3D213E7210008C9AE3 /* TYLViewControllerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLViewControllerFactory.m; sourceTree = "<group>"; };
+		42BCCC40213E7A3F008C9AE3 /* TYLInteractor_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLInteractor_Private.h; sourceTree = "<group>"; };
+		42BCCC44213E7D8A008C9AE3 /* TYLManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLManager.h; sourceTree = "<group>"; };
+		42BCCC45213E7DA5008C9AE3 /* TYLCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLCategory.h; sourceTree = "<group>"; };
+		42BCCC47213E7E67008C9AE3 /* TYLBaseViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseViewProtocol.h; sourceTree = "<group>"; };
+		42BCCC48213E7EC5008C9AE3 /* TYLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseViewController.h; sourceTree = "<group>"; };
+		42BCCC49213E7EC5008C9AE3 /* TYLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLBaseViewController.m; sourceTree = "<group>"; };
+		42BCCC4B213E8197008C9AE3 /* TYLViewControllerStyleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViewControllerStyleProtocol.h; sourceTree = "<group>"; };
+		42BCCC4C213E820B008C9AE3 /* TYLBaseViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseViewDataSource.h; sourceTree = "<group>"; };
+		42BCCC4D213E820B008C9AE3 /* TYLViewControllerBusinessProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViewControllerBusinessProtocol.h; sourceTree = "<group>"; };
+		42BCCC4E213E820B008C9AE3 /* TYLBaseEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseEventHandler.h; sourceTree = "<group>"; };
+		42BCCC4F213E820B008C9AE3 /* TYLBaseInteractorInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseInteractorInput.h; sourceTree = "<group>"; };
+		42BCCC51213E856B008C9AE3 /* TYLEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLEnum.h; sourceTree = "<group>"; };
+		42BCCC53213E85FA008C9AE3 /* TYLBaseURLMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLBaseURLMacro.h; sourceTree = "<group>"; };
+		42BCCC54213E862C008C9AE3 /* TYLWeakStrongMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLWeakStrongMacro.h; sourceTree = "<group>"; };
+		42BCCC55213E86A1008C9AE3 /* TYLSingletonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLSingletonMacro.h; sourceTree = "<group>"; };
+		42BCCC56213E89F1008C9AE3 /* NSNotificationCenter+TYLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+TYLCommon.h"; sourceTree = "<group>"; };
+		42BCCC57213E89F1008C9AE3 /* NSNotificationCenter+TYLCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+TYLCommon.m"; sourceTree = "<group>"; };
+		42BCCC59213E9007008C9AE3 /* UIViewController+TYLURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TYLURL.h"; sourceTree = "<group>"; };
+		42BCCC5A213E9007008C9AE3 /* UIViewController+TYLURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TYLURL.m"; sourceTree = "<group>"; };
+		42BCCC5D213F7798008C9AE3 /* TYLEventTracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLEventTracking.h; sourceTree = "<group>"; };
+		42BCCC63213F7850008C9AE3 /* TYLTrackFileManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLTrackFileManger.h; sourceTree = "<group>"; };
+		42BCCC64213F7850008C9AE3 /* TYLTrackFileManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLTrackFileManger.m; sourceTree = "<group>"; };
+		42BCCC66213F8577008C9AE3 /* TYLSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLSwizzler.h; sourceTree = "<group>"; };
+		42BCCC67213F8578008C9AE3 /* TYLSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLSwizzler.m; sourceTree = "<group>"; };
+		42BCCC69213F85EF008C9AE3 /* TYLMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLMacro.h; sourceTree = "<group>"; };
+		42BCCC6A213F8AD7008C9AE3 /* TYLAutoTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLAutoTracking.m; sourceTree = "<group>"; };
+		42BCCC6B213F8AD7008C9AE3 /* TYLAutoTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLAutoTracking.h; sourceTree = "<group>"; };
+		42BCCC6D213F8BCE008C9AE3 /* TYLMapTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLMapTranslator.m; sourceTree = "<group>"; };
+		42BCCC6E213F8BCF008C9AE3 /* TYLMapTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLMapTranslator.h; sourceTree = "<group>"; };
+		42BCCC70213F8C2D008C9AE3 /* TYLUserDefaultsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLUserDefaultsUtil.m; sourceTree = "<group>"; };
+		42BCCC71213F8C2D008C9AE3 /* TYLUserDefaultsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLUserDefaultsUtil.h; sourceTree = "<group>"; };
+		42BCCC73213F8C87008C9AE3 /* TYLVersionMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLVersionMacro.h; sourceTree = "<group>"; };
+		42BCCC74213F8D85008C9AE3 /* TYLReleaseConfigMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLReleaseConfigMacro.h; sourceTree = "<group>"; };
+		42BCCC75213F8E58008C9AE3 /* TYLTrackingNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLTrackingNetWork.h; sourceTree = "<group>"; };
+		42BCCC76213F8E58008C9AE3 /* TYLTrackingNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLTrackingNetWork.m; sourceTree = "<group>"; };
+		42BCCC78213F8ED4008C9AE3 /* TYLAssistants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLAssistants.h; sourceTree = "<group>"; };
+		42BCCC79213F8ED4008C9AE3 /* TYLAssistants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLAssistants.m; sourceTree = "<group>"; };
+		42BCCC7B213F8FD5008C9AE3 /* TYLNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLNetworkManager.h; sourceTree = "<group>"; };
+		42BCCC7C213F8FD5008C9AE3 /* TYLNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLNetworkManager.m; sourceTree = "<group>"; };
+		42BCCC7E213F9033008C9AE3 /* UIDevice+TYLIdentifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TYLIdentifier.h"; sourceTree = "<group>"; };
+		42BCCC7F213F9033008C9AE3 /* UIDevice+TYLIdentifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TYLIdentifier.m"; sourceTree = "<group>"; };
+		42BCCC81213F9100008C9AE3 /* TYLTokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLTokenManager.h; sourceTree = "<group>"; };
+		42BCCC82213F9100008C9AE3 /* TYLTokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLTokenManager.m; sourceTree = "<group>"; };
+		42BCCC84213F9262008C9AE3 /* TYLBusinessUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLBusinessUtil.m; sourceTree = "<group>"; };
+		42BCCC85213F9263008C9AE3 /* TYLBusinessUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLBusinessUtil.h; sourceTree = "<group>"; };
+		42BCCC87213F9300008C9AE3 /* TYLEncryptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLEncryptManager.h; sourceTree = "<group>"; };
+		42BCCC88213F9301008C9AE3 /* TYLEncryptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLEncryptManager.m; sourceTree = "<group>"; };
+		42BCCC8A213F93D0008C9AE3 /* NSData+NPMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NPMD5.h"; sourceTree = "<group>"; };
+		42BCCC8B213F93D1008C9AE3 /* NSData+NPMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NPMD5.m"; sourceTree = "<group>"; };
+		42BCCC8D213FAB04008C9AE3 /* TYLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLConstants.h; sourceTree = "<group>"; };
+		42BCCC8E213FAB04008C9AE3 /* TYLConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLConstants.m; sourceTree = "<group>"; };
+		42BCCC90213FAC47008C9AE3 /* NSObject+TYLCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TYLCheck.h"; sourceTree = "<group>"; };
+		42BCCC91213FAC47008C9AE3 /* NSObject+TYLCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TYLCheck.m"; sourceTree = "<group>"; };
+		42BCCC93213FAC9F008C9AE3 /* TYLUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLUserManager.h; sourceTree = "<group>"; };
+		42BCCC94213FAC9F008C9AE3 /* TYLUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLUserManager.m; sourceTree = "<group>"; };
+		42BCCC96213FAE1B008C9AE3 /* TYLTracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLTracking.h; sourceTree = "<group>"; };
+		42BCCC97213FAE1B008C9AE3 /* TYLTracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLTracking.m; sourceTree = "<group>"; };
+		42BCCC99213FAF1B008C9AE3 /* TYLTrackModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLTrackModel.h; sourceTree = "<group>"; };
+		42BCCC9A213FAF1B008C9AE3 /* TYLTrackModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLTrackModel.m; sourceTree = "<group>"; };
+		42BCCC9C213FB08B008C9AE3 /* UIDevice+TYLIPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TYLIPAddress.h"; sourceTree = "<group>"; };
+		42BCCC9D213FB08B008C9AE3 /* UIDevice+TYLIPAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TYLIPAddress.m"; sourceTree = "<group>"; };
+		42BCCC9F213FB1E7008C9AE3 /* TYLLaunchTrackModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLLaunchTrackModel.h; sourceTree = "<group>"; };
+		42BCCCA0213FB1E8008C9AE3 /* TYLLaunchTrackModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLLaunchTrackModel.m; sourceTree = "<group>"; };
+		42BCCCA2213FB20E008C9AE3 /* TYLPVTrackModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLPVTrackModel.h; sourceTree = "<group>"; };
+		42BCCCA3213FB20E008C9AE3 /* TYLPVTrackModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLPVTrackModel.m; sourceTree = "<group>"; };
+		42BCCCA5213FB24C008C9AE3 /* TYLClickTrackModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLClickTrackModel.h; sourceTree = "<group>"; };
+		42BCCCA6213FB24C008C9AE3 /* TYLClickTrackModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLClickTrackModel.m; sourceTree = "<group>"; };
+		42BCCCA8213FB2DF008C9AE3 /* TYLH5TrackModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLH5TrackModel.h; sourceTree = "<group>"; };
+		42BCCCA9213FB2DF008C9AE3 /* TYLH5TrackModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLH5TrackModel.m; sourceTree = "<group>"; };
+		42BCCCAB213FB346008C9AE3 /* NSObject+TYLSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TYLSwizzler.h"; sourceTree = "<group>"; };
+		42BCCCAC213FB346008C9AE3 /* NSObject+TYLSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TYLSwizzler.m"; sourceTree = "<group>"; };
+		42BCCCAE213FB35C008C9AE3 /* UIView+TYLSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TYLSwizzler.h"; sourceTree = "<group>"; };
+		42BCCCAF213FB35C008C9AE3 /* UIView+TYLSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYLSwizzler.m"; sourceTree = "<group>"; };
+		42BCCCB1213FB36D008C9AE3 /* UIControl+TYLSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+TYLSwizzler.h"; sourceTree = "<group>"; };
+		42BCCCB2213FB36D008C9AE3 /* UIControl+TYLSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+TYLSwizzler.m"; sourceTree = "<group>"; };
+		42BCCCB4213FB37C008C9AE3 /* UIViewController+TYLSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TYLSwizzler.h"; sourceTree = "<group>"; };
+		42BCCCB5213FB37C008C9AE3 /* UIViewController+TYLSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TYLSwizzler.m"; sourceTree = "<group>"; };
+		42BCCCB7213FB38A008C9AE3 /* UIApplication+TYLSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TYLSwizzler.h"; sourceTree = "<group>"; };
+		42BCCCB8213FB38A008C9AE3 /* UIApplication+TYLSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TYLSwizzler.m"; sourceTree = "<group>"; };
+		42BCCCBA213FB397008C9AE3 /* NSNotificationCenter+TYLSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+TYLSwizzler.h"; sourceTree = "<group>"; };
+		42BCCCBB213FB397008C9AE3 /* NSNotificationCenter+TYLSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+TYLSwizzler.m"; sourceTree = "<group>"; };
+		42BCCCBE213FB3C4008C9AE3 /* UITableView+TYLSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+TYLSwizzler.h"; sourceTree = "<group>"; };
+		42BCCCBF213FB3C4008C9AE3 /* UITableView+TYLSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TYLSwizzler.m"; sourceTree = "<group>"; };
+		42BCCCC1213FB3F5008C9AE3 /* TYLTableViewDelegateSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLTableViewDelegateSwizzler.h; sourceTree = "<group>"; };
+		42BCCCC2213FB3F5008C9AE3 /* TYLTableViewDelegateSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLTableViewDelegateSwizzler.m; sourceTree = "<group>"; };
+		42BCCCC4213FB582008C9AE3 /* TYLTrackingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLTrackingProtocol.h; sourceTree = "<group>"; };
+		42BCCCC5213FBDC2008C9AE3 /* UIView+TYLTrackProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TYLTrackProperties.h"; sourceTree = "<group>"; };
+		42BCCCC6213FBDC2008C9AE3 /* UIView+TYLTrackProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYLTrackProperties.m"; sourceTree = "<group>"; };
+		42BCCCC9213FC92E008C9AE3 /* TYLTrackingUIViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLTrackingUIViewProtocol.h; sourceTree = "<group>"; };
+		42BCCCCD213FD338008C9AE3 /* UITableView+TYLTrackProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+TYLTrackProperties.h"; sourceTree = "<group>"; };
+		42BCCCCE213FD338008C9AE3 /* UITableView+TYLTrackProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TYLTrackProperties.m"; sourceTree = "<group>"; };
 		42FB5BD9213D312B005FA8F2 /* Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		42FB5BDC213D312C005FA8F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		42FB5BDD213D312C005FA8F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		42FB5BDF213D312C005FA8F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		42FB5BE0213D312C005FA8F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		42FB5BE3213D312C005FA8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42FB5BE5213D312D005FA8F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		42FB5BE8213D312D005FA8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42FB5BEA213D312D005FA8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42FB5BEB213D312D005FA8F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42FB5BF1213D312D005FA8F2 /* ViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42FB5BF5213D312D005FA8F2 /* ViperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViperTests.m; sourceTree = "<group>"; };
-		42FB5BF7213D312D005FA8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		42FB5BFC213D312D005FA8F2 /* ViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		42FB5C00213D312D005FA8F2 /* ViperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViperUITests.m; sourceTree = "<group>"; };
-		42FB5C02213D312D005FA8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FB5C0E213D3DF2005FA8F2 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FB5C15213D43FC005FA8F2 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		42FB5C1D213E2DE8005FA8F2 /* TYLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLAppDelegate.h; sourceTree = "<group>"; };
+		42FB5C1E213E2DE8005FA8F2 /* TYLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLAppDelegate.m; sourceTree = "<group>"; };
+		42FB5C21213E31E2005FA8F2 /* TYLPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLPresenter.h; sourceTree = "<group>"; };
+		42FB5C22213E31E2005FA8F2 /* TYLPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLPresenter.m; sourceTree = "<group>"; };
+		42FB5C24213E3203005FA8F2 /* TYLInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLInteractor.h; sourceTree = "<group>"; };
+		42FB5C25213E3203005FA8F2 /* TYLInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLInteractor.m; sourceTree = "<group>"; };
+		42FB5C27213E322E005FA8F2 /* TYLWireframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLWireframe.h; sourceTree = "<group>"; };
+		42FB5C28213E322E005FA8F2 /* TYLWireframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLWireframe.m; sourceTree = "<group>"; };
+		42FB5C2A213E326E005FA8F2 /* TYLViperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViperViewController.h; sourceTree = "<group>"; };
+		42FB5C2B213E326E005FA8F2 /* TYLViperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLViperViewController.m; sourceTree = "<group>"; };
+		42FB5C32213E345E005FA8F2 /* TYLViperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViperProtocol.h; sourceTree = "<group>"; };
+		42FB5C33213E3472005FA8F2 /* TYLViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViewProtocol.h; sourceTree = "<group>"; };
+		42FB5C34213E3489005FA8F2 /* TYLEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLEventHandler.h; sourceTree = "<group>"; };
+		42FB5C35213E3498005FA8F2 /* TYLDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLDataSource.h; sourceTree = "<group>"; };
+		42FB5C3A213E3556005FA8F2 /* TYLEventHandler_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLEventHandler_Private.h; sourceTree = "<group>"; };
+		42FB5C3C213E357C005FA8F2 /* TYLViper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLViper.h; sourceTree = "<group>"; };
+		42FB5C3D213E3931005FA8F2 /* TYLcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYLcore.h; sourceTree = "<group>"; };
+		DB1F1656E10644A27B09A191 /* libPods-Viper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Viper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5CCF99AE023F2E7FF16F25 /* Pods-Viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viper/Pods-Viper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,33 +201,218 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FB5BEE213D312D005FA8F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FB5BF9213D312D005FA8F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				42FB5C0F213D3DF2005FA8F2 /* libAFNetworking.a in Frameworks */,
+				D5220E26545AD0F1F8D3EFA9 /* libPods-Viper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B3D1497C0DF538F6B591BD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42FB5C0E213D3DF2005FA8F2 /* libAFNetworking.a */,
+				DB1F1656E10644A27B09A191 /* libPods-Viper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42BCCC2D213E5DAF008C9AE3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC34213E6082008C9AE3 /* TYLRouter.h */,
+				42BCCC35213E60AB008C9AE3 /* TYLURLHandler.h */,
+				42BCCC36213E60AB008C9AE3 /* TYLURLHandler.m */,
+				42BCCC2E213E5DCC008C9AE3 /* TYLURL.h */,
+				42BCCC2F213E5DCC008C9AE3 /* TYLURL.m */,
+				42BCCC31213E5F56008C9AE3 /* NSString+TYLURL.h */,
+				42BCCC32213E5F56008C9AE3 /* NSString+TYLURL.m */,
+				42BCCC59213E9007008C9AE3 /* UIViewController+TYLURL.h */,
+				42BCCC5A213E9007008C9AE3 /* UIViewController+TYLURL.m */,
+				42BCCC3C213E7210008C9AE3 /* TYLViewControllerFactory.h */,
+				42BCCC3D213E7210008C9AE3 /* TYLViewControllerFactory.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		42BCCC42213E7D04008C9AE3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC44213E7D8A008C9AE3 /* TYLManager.h */,
+				42BCCC7B213F8FD5008C9AE3 /* TYLNetworkManager.h */,
+				42BCCC7C213F8FD5008C9AE3 /* TYLNetworkManager.m */,
+				42BCCC81213F9100008C9AE3 /* TYLTokenManager.h */,
+				42BCCC82213F9100008C9AE3 /* TYLTokenManager.m */,
+				42BCCC87213F9300008C9AE3 /* TYLEncryptManager.h */,
+				42BCCC88213F9301008C9AE3 /* TYLEncryptManager.m */,
+				42BCCC93213FAC9F008C9AE3 /* TYLUserManager.h */,
+				42BCCC94213FAC9F008C9AE3 /* TYLUserManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		42BCCC43213E7D5E008C9AE3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC45213E7DA5008C9AE3 /* TYLCategory.h */,
+				42BCCC56213E89F1008C9AE3 /* NSNotificationCenter+TYLCommon.h */,
+				42BCCC57213E89F1008C9AE3 /* NSNotificationCenter+TYLCommon.m */,
+				42BCCC7E213F9033008C9AE3 /* UIDevice+TYLIdentifier.h */,
+				42BCCC7F213F9033008C9AE3 /* UIDevice+TYLIdentifier.m */,
+				42BCCC8A213F93D0008C9AE3 /* NSData+NPMD5.h */,
+				42BCCC8B213F93D1008C9AE3 /* NSData+NPMD5.m */,
+				42BCCC90213FAC47008C9AE3 /* NSObject+TYLCheck.h */,
+				42BCCC91213FAC47008C9AE3 /* NSObject+TYLCheck.m */,
+				42BCCC9C213FB08B008C9AE3 /* UIDevice+TYLIPAddress.h */,
+				42BCCC9D213FB08B008C9AE3 /* UIDevice+TYLIPAddress.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		42BCCC46213E7E33008C9AE3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC47213E7E67008C9AE3 /* TYLBaseViewProtocol.h */,
+				42BCCC48213E7EC5008C9AE3 /* TYLBaseViewController.h */,
+				42BCCC49213E7EC5008C9AE3 /* TYLBaseViewController.m */,
+				42BCCC4B213E8197008C9AE3 /* TYLViewControllerStyleProtocol.h */,
+				42BCCC4E213E820B008C9AE3 /* TYLBaseEventHandler.h */,
+				42BCCC4F213E820B008C9AE3 /* TYLBaseInteractorInput.h */,
+				42BCCC4C213E820B008C9AE3 /* TYLBaseViewDataSource.h */,
+				42BCCC4D213E820B008C9AE3 /* TYLViewControllerBusinessProtocol.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		42BCCC50213E8549008C9AE3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC51213E856B008C9AE3 /* TYLEnum.h */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		42BCCC52213E85DA008C9AE3 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC69213F85EF008C9AE3 /* TYLMacro.h */,
+				42BCCC53213E85FA008C9AE3 /* TYLBaseURLMacro.h */,
+				42BCCC54213E862C008C9AE3 /* TYLWeakStrongMacro.h */,
+				42BCCC55213E86A1008C9AE3 /* TYLSingletonMacro.h */,
+				42BCCC73213F8C87008C9AE3 /* TYLVersionMacro.h */,
+				42BCCC74213F8D85008C9AE3 /* TYLReleaseConfigMacro.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		42BCCC5C213F7782008C9AE3 /* EventTracking */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC5D213F7798008C9AE3 /* TYLEventTracking.h */,
+				42BCCC62213F7833008C9AE3 /* TrackActions */,
+				42BCCC61213F7818008C9AE3 /* TrackingModel */,
+				42BCCC60213F77F2008C9AE3 /* Swizzler */,
+				42BCCC5F213F77D0008C9AE3 /* Tracking */,
+				42BCCC5E213F77BB008C9AE3 /* TrackingFileManager */,
+			);
+			path = EventTracking;
+			sourceTree = "<group>";
+		};
+		42BCCC5E213F77BB008C9AE3 /* TrackingFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC63213F7850008C9AE3 /* TYLTrackFileManger.h */,
+				42BCCC64213F7850008C9AE3 /* TYLTrackFileManger.m */,
+			);
+			path = TrackingFileManager;
+			sourceTree = "<group>";
+		};
+		42BCCC5F213F77D0008C9AE3 /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCCC4213FB582008C9AE3 /* TYLTrackingProtocol.h */,
+				42BCCCC9213FC92E008C9AE3 /* TYLTrackingUIViewProtocol.h */,
+				42BCCCC5213FBDC2008C9AE3 /* UIView+TYLTrackProperties.h */,
+				42BCCCC6213FBDC2008C9AE3 /* UIView+TYLTrackProperties.m */,
+				42BCCCCD213FD338008C9AE3 /* UITableView+TYLTrackProperties.h */,
+				42BCCCCE213FD338008C9AE3 /* UITableView+TYLTrackProperties.m */,
+				42BCCC96213FAE1B008C9AE3 /* TYLTracking.h */,
+				42BCCC97213FAE1B008C9AE3 /* TYLTracking.m */,
+				42BCCC6B213F8AD7008C9AE3 /* TYLAutoTracking.h */,
+				42BCCC6A213F8AD7008C9AE3 /* TYLAutoTracking.m */,
+				42BCCC6E213F8BCF008C9AE3 /* TYLMapTranslator.h */,
+				42BCCC6D213F8BCE008C9AE3 /* TYLMapTranslator.m */,
+				42BCCC75213F8E58008C9AE3 /* TYLTrackingNetWork.h */,
+				42BCCC76213F8E58008C9AE3 /* TYLTrackingNetWork.m */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		42BCCC60213F77F2008C9AE3 /* Swizzler */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC66213F8577008C9AE3 /* TYLSwizzler.h */,
+				42BCCC67213F8578008C9AE3 /* TYLSwizzler.m */,
+			);
+			path = Swizzler;
+			sourceTree = "<group>";
+		};
+		42BCCC61213F7818008C9AE3 /* TrackingModel */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC99213FAF1B008C9AE3 /* TYLTrackModel.h */,
+				42BCCC9A213FAF1B008C9AE3 /* TYLTrackModel.m */,
+				42BCCC9F213FB1E7008C9AE3 /* TYLLaunchTrackModel.h */,
+				42BCCCA0213FB1E8008C9AE3 /* TYLLaunchTrackModel.m */,
+				42BCCCA2213FB20E008C9AE3 /* TYLPVTrackModel.h */,
+				42BCCCA3213FB20E008C9AE3 /* TYLPVTrackModel.m */,
+				42BCCCA5213FB24C008C9AE3 /* TYLClickTrackModel.h */,
+				42BCCCA6213FB24C008C9AE3 /* TYLClickTrackModel.m */,
+				42BCCCA8213FB2DF008C9AE3 /* TYLH5TrackModel.h */,
+				42BCCCA9213FB2DF008C9AE3 /* TYLH5TrackModel.m */,
+			);
+			path = TrackingModel;
+			sourceTree = "<group>";
+		};
+		42BCCC62213F7833008C9AE3 /* TrackActions */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCCBD213FB3AE008C9AE3 /* tableview */,
+				42BCCCAB213FB346008C9AE3 /* NSObject+TYLSwizzler.h */,
+				42BCCCAC213FB346008C9AE3 /* NSObject+TYLSwizzler.m */,
+				42BCCCAE213FB35C008C9AE3 /* UIView+TYLSwizzler.h */,
+				42BCCCAF213FB35C008C9AE3 /* UIView+TYLSwizzler.m */,
+				42BCCCB1213FB36D008C9AE3 /* UIControl+TYLSwizzler.h */,
+				42BCCCB2213FB36D008C9AE3 /* UIControl+TYLSwizzler.m */,
+				42BCCCB4213FB37C008C9AE3 /* UIViewController+TYLSwizzler.h */,
+				42BCCCB5213FB37C008C9AE3 /* UIViewController+TYLSwizzler.m */,
+				42BCCCBA213FB397008C9AE3 /* NSNotificationCenter+TYLSwizzler.h */,
+				42BCCCBB213FB397008C9AE3 /* NSNotificationCenter+TYLSwizzler.m */,
+				42BCCCB7213FB38A008C9AE3 /* UIApplication+TYLSwizzler.h */,
+				42BCCCB8213FB38A008C9AE3 /* UIApplication+TYLSwizzler.m */,
+			);
+			path = TrackActions;
+			sourceTree = "<group>";
+		};
+		42BCCCBD213FB3AE008C9AE3 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCCBE213FB3C4008C9AE3 /* UITableView+TYLSwizzler.h */,
+				42BCCCBF213FB3C4008C9AE3 /* UITableView+TYLSwizzler.m */,
+				42BCCCC1213FB3F5008C9AE3 /* TYLTableViewDelegateSwizzler.h */,
+				42BCCCC2213FB3F5008C9AE3 /* TYLTableViewDelegateSwizzler.m */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
 		42FB5BD0213D312B005FA8F2 = {
 			isa = PBXGroup;
 			children = (
 				42FB5BDB213D312B005FA8F2 /* Viper */,
-				42FB5BF4213D312D005FA8F2 /* ViperTests */,
-				42FB5BFF213D312D005FA8F2 /* ViperUITests */,
 				42FB5BDA213D312B005FA8F2 /* Products */,
+				AAF120196245FE8CC043A488 /* Pods */,
+				3B3D1497C0DF538F6B591BD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +420,6 @@
 			isa = PBXGroup;
 			children = (
 				42FB5BD9213D312B005FA8F2 /* Viper.app */,
-				42FB5BF1213D312D005FA8F2 /* ViperTests.xctest */,
-				42FB5BFC213D312D005FA8F2 /* ViperUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,35 +427,149 @@
 		42FB5BDB213D312B005FA8F2 /* Viper */ = {
 			isa = PBXGroup;
 			children = (
-				42FB5BDC213D312C005FA8F2 /* AppDelegate.h */,
-				42FB5BDD213D312C005FA8F2 /* AppDelegate.m */,
+				42FB5C10213D429A005FA8F2 /* Classes */,
+				42FB5C11213D42AF005FA8F2 /* Resources */,
+				42FB5C12213D42EF005FA8F2 /* Supportings */,
 				42FB5BDF213D312C005FA8F2 /* ViewController.h */,
 				42FB5BE0213D312C005FA8F2 /* ViewController.m */,
-				42FB5BE2213D312C005FA8F2 /* Main.storyboard */,
-				42FB5BE5213D312D005FA8F2 /* Assets.xcassets */,
-				42FB5BE7213D312D005FA8F2 /* LaunchScreen.storyboard */,
-				42FB5BEA213D312D005FA8F2 /* Info.plist */,
-				42FB5BEB213D312D005FA8F2 /* main.m */,
 			);
 			path = Viper;
 			sourceTree = "<group>";
 		};
-		42FB5BF4213D312D005FA8F2 /* ViperTests */ = {
+		42FB5C10213D429A005FA8F2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				42FB5BF5213D312D005FA8F2 /* ViperTests.m */,
-				42FB5BF7213D312D005FA8F2 /* Info.plist */,
+				42FB5C16213D470E005FA8F2 /* Basics */,
+				42FB5C18213D4788005FA8F2 /* Assistants */,
+				42FB5C17213D471E005FA8F2 /* Modules */,
+				42FB5C1A213D47A7005FA8F2 /* Manager */,
+				42FB5C1B213D47B1005FA8F2 /* Common */,
+				42FB5C1C213E2D5F005FA8F2 /* ThridParties */,
+				42FB5C19213D4792005FA8F2 /* Utils */,
 			);
-			path = ViperTests;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		42FB5BFF213D312D005FA8F2 /* ViperUITests */ = {
+		42FB5C11213D42AF005FA8F2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42FB5C00213D312D005FA8F2 /* ViperUITests.m */,
-				42FB5C02213D312D005FA8F2 /* Info.plist */,
+				42FB5BE5213D312D005FA8F2 /* Assets.xcassets */,
 			);
-			path = ViperUITests;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		42FB5C12213D42EF005FA8F2 /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				42FB5BEA213D312D005FA8F2 /* Info.plist */,
+				42FB5BEB213D312D005FA8F2 /* main.m */,
+				42FB5C15213D43FC005FA8F2 /* Prefix.pch */,
+			);
+			path = Supportings;
+			sourceTree = "<group>";
+		};
+		42FB5C16213D470E005FA8F2 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				42FB5C1D213E2DE8005FA8F2 /* TYLAppDelegate.h */,
+				42FB5C1E213E2DE8005FA8F2 /* TYLAppDelegate.m */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		42FB5C17213D471E005FA8F2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		42FB5C18213D4788005FA8F2 /* Assistants */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC52213E85DA008C9AE3 /* Macros */,
+				42BCCC50213E8549008C9AE3 /* Enums */,
+				42FB5C3D213E3931005FA8F2 /* TYLcore.h */,
+				42BCCC78213F8ED4008C9AE3 /* TYLAssistants.h */,
+				42BCCC79213F8ED4008C9AE3 /* TYLAssistants.m */,
+				42BCCC8D213FAB04008C9AE3 /* TYLConstants.h */,
+				42BCCC8E213FAB04008C9AE3 /* TYLConstants.m */,
+			);
+			path = Assistants;
+			sourceTree = "<group>";
+		};
+		42FB5C19213D4792005FA8F2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC3B213E6437008C9AE3 /* TYLUtilHeader.h */,
+				42BCCC38213E641E008C9AE3 /* TYLClassUtil.h */,
+				42BCCC39213E641E008C9AE3 /* TYLClassUtil.m */,
+				42BCCC71213F8C2D008C9AE3 /* TYLUserDefaultsUtil.h */,
+				42BCCC70213F8C2D008C9AE3 /* TYLUserDefaultsUtil.m */,
+				42BCCC85213F9263008C9AE3 /* TYLBusinessUtil.h */,
+				42BCCC84213F9262008C9AE3 /* TYLBusinessUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		42FB5C1A213D47A7005FA8F2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		42FB5C1B213D47B1005FA8F2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				42BCCC5C213F7782008C9AE3 /* EventTracking */,
+				42BCCC46213E7E33008C9AE3 /* Base */,
+				42BCCC2D213E5DAF008C9AE3 /* Router */,
+				42FB5C20213E3180005FA8F2 /* Viper */,
+				42BCCC42213E7D04008C9AE3 /* Manager */,
+				42BCCC43213E7D5E008C9AE3 /* Category */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		42FB5C1C213E2D5F005FA8F2 /* ThridParties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThridParties;
+			sourceTree = "<group>";
+		};
+		42FB5C20213E3180005FA8F2 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				42FB5C3C213E357C005FA8F2 /* TYLViper.h */,
+				42FB5C21213E31E2005FA8F2 /* TYLPresenter.h */,
+				42BCCC2B213E3C3A008C9AE3 /* TYLPresenter_Private.h */,
+				42FB5C22213E31E2005FA8F2 /* TYLPresenter.m */,
+				42FB5C24213E3203005FA8F2 /* TYLInteractor.h */,
+				42BCCC40213E7A3F008C9AE3 /* TYLInteractor_Private.h */,
+				42FB5C25213E3203005FA8F2 /* TYLInteractor.m */,
+				42FB5C27213E322E005FA8F2 /* TYLWireframe.h */,
+				42FB5C28213E322E005FA8F2 /* TYLWireframe.m */,
+				42FB5C32213E345E005FA8F2 /* TYLViperProtocol.h */,
+				42FB5C33213E3472005FA8F2 /* TYLViewProtocol.h */,
+				42FB5C34213E3489005FA8F2 /* TYLEventHandler.h */,
+				42FB5C3A213E3556005FA8F2 /* TYLEventHandler_Private.h */,
+				42FB5C35213E3498005FA8F2 /* TYLDataSource.h */,
+				42FB5C2A213E326E005FA8F2 /* TYLViperViewController.h */,
+				42BCCC2C213E585B008C9AE3 /* TYLViperViewController_Private.h */,
+				42FB5C2B213E326E005FA8F2 /* TYLViperViewController.m */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		AAF120196245FE8CC043A488 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CCF99AE023F2E7FF16F25 /* Pods-Viper.debug.xcconfig */,
+				08693508FE668EA43B5BA9DA /* Pods-Viper.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +579,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42FB5C05213D312D005FA8F2 /* Build configuration list for PBXNativeTarget "Viper" */;
 			buildPhases = (
+				69941C4814038D50A1C5623E /* [CP] Check Pods Manifest.lock */,
 				42FB5BD5213D312B005FA8F2 /* Sources */,
 				42FB5BD6213D312B005FA8F2 /* Frameworks */,
 				42FB5BD7213D312B005FA8F2 /* Resources */,
@@ -152,61 +593,18 @@
 			productReference = 42FB5BD9213D312B005FA8F2 /* Viper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		42FB5BF0213D312D005FA8F2 /* ViperTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42FB5C08213D312D005FA8F2 /* Build configuration list for PBXNativeTarget "ViperTests" */;
-			buildPhases = (
-				42FB5BED213D312D005FA8F2 /* Sources */,
-				42FB5BEE213D312D005FA8F2 /* Frameworks */,
-				42FB5BEF213D312D005FA8F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42FB5BF3213D312D005FA8F2 /* PBXTargetDependency */,
-			);
-			name = ViperTests;
-			productName = ViperTests;
-			productReference = 42FB5BF1213D312D005FA8F2 /* ViperTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		42FB5BFB213D312D005FA8F2 /* ViperUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42FB5C0B213D312D005FA8F2 /* Build configuration list for PBXNativeTarget "ViperUITests" */;
-			buildPhases = (
-				42FB5BF8213D312D005FA8F2 /* Sources */,
-				42FB5BF9213D312D005FA8F2 /* Frameworks */,
-				42FB5BFA213D312D005FA8F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				42FB5BFE213D312D005FA8F2 /* PBXTargetDependency */,
-			);
-			name = ViperUITests;
-			productName = ViperUITests;
-			productReference = 42FB5BFC213D312D005FA8F2 /* ViperUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		42FB5BD1213D312B005FA8F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TYL;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = tianyulong;
 				TargetAttributes = {
 					42FB5BD8213D312B005FA8F2 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					42FB5BF0213D312D005FA8F2 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 42FB5BD8213D312B005FA8F2;
-					};
-					42FB5BFB213D312D005FA8F2 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 42FB5BD8213D312B005FA8F2;
 					};
 				};
 			};
@@ -224,8 +622,6 @@
 			projectRoot = "";
 			targets = (
 				42FB5BD8213D312B005FA8F2 /* Viper */,
-				42FB5BF0213D312D005FA8F2 /* ViperTests */,
-				42FB5BFB213D312D005FA8F2 /* ViperUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,88 +631,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FB5BE9213D312D005FA8F2 /* LaunchScreen.storyboard in Resources */,
 				42FB5BE6213D312D005FA8F2 /* Assets.xcassets in Resources */,
-				42FB5BE4213D312C005FA8F2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FB5BEF213D312D005FA8F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FB5BFA213D312D005FA8F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69941C4814038D50A1C5623E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		42FB5BD5213D312B005FA8F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BCCC4A213E7EC5008C9AE3 /* TYLBaseViewController.m in Sources */,
+				42BCCC83213F9100008C9AE3 /* TYLTokenManager.m in Sources */,
+				42FB5C2C213E326E005FA8F2 /* TYLViperViewController.m in Sources */,
+				42BCCC86213F9263008C9AE3 /* TYLBusinessUtil.m in Sources */,
+				42BCCCCF213FD338008C9AE3 /* UITableView+TYLTrackProperties.m in Sources */,
+				42BCCC7A213F8ED4008C9AE3 /* TYLAssistants.m in Sources */,
+				42BCCC72213F8C2D008C9AE3 /* TYLUserDefaultsUtil.m in Sources */,
+				42BCCCB0213FB35C008C9AE3 /* UIView+TYLSwizzler.m in Sources */,
+				42BCCC92213FAC47008C9AE3 /* NSObject+TYLCheck.m in Sources */,
+				42BCCCB6213FB37C008C9AE3 /* UIViewController+TYLSwizzler.m in Sources */,
+				42BCCC8F213FAB04008C9AE3 /* TYLConstants.m in Sources */,
+				42BCCCAA213FB2DF008C9AE3 /* TYLH5TrackModel.m in Sources */,
+				42BCCC68213F8578008C9AE3 /* TYLSwizzler.m in Sources */,
+				42BCCCC3213FB3F5008C9AE3 /* TYLTableViewDelegateSwizzler.m in Sources */,
+				42BCCC3E213E7210008C9AE3 /* TYLViewControllerFactory.m in Sources */,
+				42BCCC33213E5F56008C9AE3 /* NSString+TYLURL.m in Sources */,
+				42BCCC9E213FB08B008C9AE3 /* UIDevice+TYLIPAddress.m in Sources */,
+				42BCCC95213FAC9F008C9AE3 /* TYLUserManager.m in Sources */,
+				42BCCCC0213FB3C4008C9AE3 /* UITableView+TYLSwizzler.m in Sources */,
+				42BCCCBC213FB397008C9AE3 /* NSNotificationCenter+TYLSwizzler.m in Sources */,
+				42BCCCB9213FB38A008C9AE3 /* UIApplication+TYLSwizzler.m in Sources */,
+				42BCCC5B213E9007008C9AE3 /* UIViewController+TYLURL.m in Sources */,
+				42BCCCB3213FB36D008C9AE3 /* UIControl+TYLSwizzler.m in Sources */,
+				42BCCC80213F9033008C9AE3 /* UIDevice+TYLIdentifier.m in Sources */,
+				42FB5C29213E322E005FA8F2 /* TYLWireframe.m in Sources */,
+				42BCCC7D213F8FD5008C9AE3 /* TYLNetworkManager.m in Sources */,
+				42BCCC77213F8E58008C9AE3 /* TYLTrackingNetWork.m in Sources */,
+				42FB5C1F213E2DE8005FA8F2 /* TYLAppDelegate.m in Sources */,
+				42BCCCA7213FB24C008C9AE3 /* TYLClickTrackModel.m in Sources */,
+				42BCCC65213F7850008C9AE3 /* TYLTrackFileManger.m in Sources */,
+				42BCCCA1213FB1E8008C9AE3 /* TYLLaunchTrackModel.m in Sources */,
+				42BCCCC7213FBDC2008C9AE3 /* UIView+TYLTrackProperties.m in Sources */,
 				42FB5BE1213D312C005FA8F2 /* ViewController.m in Sources */,
+				42BCCC98213FAE1B008C9AE3 /* TYLTracking.m in Sources */,
+				42BCCC3A213E641E008C9AE3 /* TYLClassUtil.m in Sources */,
+				42BCCC89213F9301008C9AE3 /* TYLEncryptManager.m in Sources */,
+				42BCCC8C213F93D1008C9AE3 /* NSData+NPMD5.m in Sources */,
+				42BCCC58213E89F1008C9AE3 /* NSNotificationCenter+TYLCommon.m in Sources */,
+				42FB5C23213E31E2005FA8F2 /* TYLPresenter.m in Sources */,
+				42BCCC6C213F8AD7008C9AE3 /* TYLAutoTracking.m in Sources */,
+				42BCCCAD213FB346008C9AE3 /* NSObject+TYLSwizzler.m in Sources */,
+				42BCCCA4213FB20E008C9AE3 /* TYLPVTrackModel.m in Sources */,
+				42BCCC9B213FAF1B008C9AE3 /* TYLTrackModel.m in Sources */,
+				42FB5C26213E3203005FA8F2 /* TYLInteractor.m in Sources */,
+				42BCCC6F213F8BCF008C9AE3 /* TYLMapTranslator.m in Sources */,
 				42FB5BEC213D312D005FA8F2 /* main.m in Sources */,
-				42FB5BDE213D312C005FA8F2 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FB5BED213D312D005FA8F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42FB5BF6213D312D005FA8F2 /* ViperTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FB5BF8213D312D005FA8F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				42FB5C01213D312D005FA8F2 /* ViperUITests.m in Sources */,
+				42BCCC37213E60AB008C9AE3 /* TYLURLHandler.m in Sources */,
+				42BCCC30213E5DCC008C9AE3 /* TYLURL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		42FB5BF3213D312D005FA8F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42FB5BD8213D312B005FA8F2 /* Viper */;
-			targetProxy = 42FB5BF2213D312D005FA8F2 /* PBXContainerItemProxy */;
-		};
-		42FB5BFE213D312D005FA8F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 42FB5BD8213D312B005FA8F2 /* Viper */;
-			targetProxy = 42FB5BFD213D312D005FA8F2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		42FB5BE2213D312C005FA8F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42FB5BE3213D312C005FA8F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		42FB5BE7213D312D005FA8F2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42FB5BE8213D312D005FA8F2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		42FB5C03213D312D005FA8F2 /* Debug */ = {
@@ -370,7 +768,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +820,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -431,109 +829,41 @@
 		};
 		42FB5C06213D312D005FA8F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5CCF99AE023F2E7FF16F25 /* Pods-Viper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = Viper/Info.plist;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Supportings/Prefix.pch";
+				INFOPLIST_FILE = Viper/Supportings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.Viper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		42FB5C07213D312D005FA8F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08693508FE668EA43B5BA9DA /* Pods-Viper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = Viper/Info.plist;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/Supportings/Prefix.pch";
+				INFOPLIST_FILE = Viper/Supportings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.Viper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		42FB5C09213D312D005FA8F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = ViperTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.ViperTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viper.app/Viper";
-			};
-			name = Debug;
-		};
-		42FB5C0A213D312D005FA8F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = ViperTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.ViperTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viper.app/Viper";
-			};
-			name = Release;
-		};
-		42FB5C0C213D312D005FA8F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = ViperUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.ViperUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Viper;
-			};
-			name = Debug;
-		};
-		42FB5C0D213D312D005FA8F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 657HH87BMM;
-				INFOPLIST_FILE = ViperUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.viperproject.www.ViperUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Viper;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -554,24 +884,6 @@
 			buildConfigurations = (
 				42FB5C06213D312D005FA8F2 /* Debug */,
 				42FB5C07213D312D005FA8F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42FB5C08213D312D005FA8F2 /* Build configuration list for PBXNativeTarget "ViperTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42FB5C09213D312D005FA8F2 /* Debug */,
-				42FB5C0A213D312D005FA8F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42FB5C0B213D312D005FA8F2 /* Build configuration list for PBXNativeTarget "ViperUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				42FB5C0C213D312D005FA8F2 /* Debug */,
-				42FB5C0D213D312D005FA8F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
