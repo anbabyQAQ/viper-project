@@ -10,5 +10,7 @@
 #define TYLUtilHeader_h
 
 #import "TYLClassUtil.h"
+#import "TYLUserDefaultsUtil.h"
+#import "TYLBusinessUtil.h"
 
 #endif /* TYLUtilHeader_h */

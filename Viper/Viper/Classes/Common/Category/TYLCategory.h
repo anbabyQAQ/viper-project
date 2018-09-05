@@ -10,6 +10,8 @@
 #define TYLCategory_h
 
 #import "NSNotificationCenter+TYLCommon.h"
-
+#import "UIDevice+TYLIdentifier.h"
+#import "NSData+NPMD5.h"
+#import "NSObject+TYLCheck.h"
 
 #endif /* TYLCategory_h */

@@ -19,5 +19,19 @@
 #import "TYLBaseURLMacro.h"
 #import "TYLWeakStrongMacro.h"
 #import "TYLSingletonMacro.h"
+#import "TYLEventTracking.h"
+#import "TYLMacro.h"
+#import "TYLVersionMacro.h"
+#import "TYLAssistants.h"
+#import "TYLConstants.h"
+
+
+
+#pragma mark Pods
+#import <AFNetworking/AFNetworking.h>
+#import <UICKeyChainStore/UICKeyChainStore.h>
+#import <Masonry/Masonry.h>
+#import <YYModel/YYModel.h>
+
 
 #endif /* TYLcore_h */

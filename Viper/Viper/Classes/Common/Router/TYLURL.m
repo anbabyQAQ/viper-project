@@ -30,6 +30,7 @@
     if (![string isKindOfClass:[NSString class]] || [string length] == 0) {
         self.incomingString = string;
         return;
+        
     }
     self.incomingString = string;
     NSRange range = [string rangeOfString:@"://"];
